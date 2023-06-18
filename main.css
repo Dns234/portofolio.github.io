@@ -1,0 +1,129 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #313131 !important;
+}
+
+
+.navbar ul li{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navbar a{
+    color: #F6F1F1 !important;
+}
+
+.navbar-brand a {
+    color: #F6F1F1 !important;
+}
+
+.navbar ul li a:hover{
+    background-color: #AFD3E2 !important;
+    color: black !important;
+}
+
+#content{
+    margin-top: 60px;
+}
+
+#photoProfile{
+    width: 300px;
+    height: 300px;
+    /* background-color: white; */
+    /* border-radius: 50%; */
+}
+
+.job , .name {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.job{
+
+    transform: translate(-500px,0);
+}
+
+.name{
+
+    transform: translate(500px,0);
+}
+
+
+.col1{
+    background-color: #525252;
+    opacity: 0;
+    transform: translate(-70px,0);
+}
+.col2{
+    background-color: #525252;
+    opacity: 0;
+    transform: translate(-140px, 0);
+}
+.col3{
+    background-color: #525252;
+    opacity: 0;
+    transform: translate(-210px,0);
+}
+
+
+
+.masuk1{
+    opacity: 1;
+    transform: translate(0,0);
+    transition: 1s;
+}
+
+
+.content3{
+    min-height: 600px;
+}
+footer{
+    height: 50px;
+    background-color: #414141;
+}
+
+.ido{
+    opacity: 0;
+    transform: translate(0px,-100px);
+    
+}
+.muncul{
+    opacity: 1;
+    transform: translate((0,0));
+    transition: 1s;
+}
+
+.munculprofile{
+    opacity: 1;
+    transform: translate(0,0);
+    transition: 1s;
+}
+img.photoProfile{
+    opacity: 0;
+    transform: translate(0,100px);
+
+}
+
+.munculbio{
+    opacity: 1;
+    font-size: 50px;
+    transform: translate(0,0);
+    transition: 2s;
+    font-family: sans-serif;
+}
+
+
+@media (max-width: 767px){
+    .munculbio{
+        font-size: 35px;
+    }
+    .nav {
+        justify-content: inherit;
+        text-align: start;
+    }
+}
